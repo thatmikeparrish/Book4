@@ -1,20 +1,31 @@
 import React, { Component } from 'react'
+import "./locations.css"
 
 
 export default class LocationList  extends Component {
-    render() {
+    render(props) {
         return (
-            <article>
-                <h1>Location List</h1>
-                <section>
-                    <h4>Nashville North</h3>
-                    <p>123 Address Dr. Nashville, TN</p>
-                </section>
-                <section>
-                    <h4>Nashville South</h4>
-                    <p>456 Address Dr. Nashville, TN</p>
-                </section>
-            </article>
+            <div className="locations">
+                <h3>Our locations</h3>
+                <div className="cardDeck"> 
+                {
+                    this.props.locations.map(location =>
+                        <div key={location.id} className="card">
+                            <div className="card-body">
+                                <h5 className="card-title">
+                                    <img alt={location.name} src={location.pic} />
+                                    {location.name}<br></br>
+                                    {location.address}<br></br>
+                                    <a href="#"
+                                        onClick={() => this.props.deleteLocation(location.id)}
+                                        className="card-link">Delete</a>
+                                </h5>
+                            </div>
+                        </div>
+                    )
+                }
+                </div>
+            </div>
         );
     }
 }
