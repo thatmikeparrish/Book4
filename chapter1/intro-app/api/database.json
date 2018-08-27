@@ -1,0 +1,115 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Jessica Younker",
+      "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuVHI1Nn5hlTQMQdVwCo8noneTR7sX10qHZY__s4Mr7VIoxTA5Gg"
+    },
+    {
+      "id": 2,
+      "name": "Jordan Nelson",
+      "pic": "https://i2.wp.com/www.usmagazine.com/wp-content/uploads/aaron-carter-mugshot-habersham-county-sheriff-office-59750946-b954-4f36-8a76-26ead6e6f7cf.jpg?crop=129px%2C0px%2C749px%2C749px&resize=100%2C100&ssl=1"
+    },
+    {
+      "id": 3,
+      "name": "Zoe LeBlanc",
+      "pic": "http://www.feelnumb.com/wp-content/uploads/2011/03/Darcy-Wretzky-Arrest-Mugshot-Drugs-Smashing-Pumpkins-Bass-100x100.jpg"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "500 Circle Way",
+      "pic": "https://media.bizj.us/view/img/10847878/dmcbuilding-main*100xx527-527-214-0.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "501 Circle Way",
+      "pic": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Yale_Kline_Biology_Tower.JPG/100px-Yale_Kline_Biology_Tower.JPG"
+    },
+    {
+      "id": 3,
+      "name": "Nashville East",
+      "address": "502 Circle Way",
+      "pic": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Paccar_Tower.jpg/100px-Paccar_Tower.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Nashville West",
+      "address": "503 Circle Way",
+      "pic": "https://www.e-architect.co.uk/images/stories/berlin/potsdamerplatz_buildings_aw050909_4tb.jpg"
+    }
+  ],
+  "animals": [
+    {
+      "id": 1,
+      "name": "Fishy",
+      "type": "goldfish",
+      "pic": "https://yt3.ggpht.com/-4wzavTwWDSc/AAAAAAAAAAI/AAAAAAAAAAA/pKJTTjj4z2Q/s100-mo-c-c0xffffffff-rj-k-no/photo.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Polly",
+      "type": "parrot",
+      "pic": "https://yt3.ggpht.com/-MlvUtnX9SYE/AAAAAAAAAAI/AAAAAAAAAAA/ChmmVYvPV1w/s100-mo-c-c0xffffffff-rj-k-no/photo.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Rover",
+      "type": "dog",
+      "pic": "https://yt3.ggpht.com/-cLeLcvxAPqg/AAAAAAAAAAI/AAAAAAAAAAA/13tCT9otrkE/s100-mo-c-c0xffffffff-rj-k-no/photo.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Boris",
+      "type": "cat",
+      "pic": "https://hips.hearstapps.com/cos.h-cdn.co/assets/15/23/980x980/square-1433350780-cat.jpg?resize=100:*"
+    },
+    {
+      "id": 6,
+      "name": "Snappy",
+      "type": "gator",
+      "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFOCjG2AKhp86msX3n9RiJHLFvfsecC_2jwh4c2fwaubsvjwkG"
+    }
+  ],
+  "owners": [
+    {
+      "id": 1,
+      "name": "Ryan Tanay",
+      "phone": "123-456-7890",
+      "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFOCjG2AKhp86msX3n9RiJHLFvfsecC_2jwh4c2fwaubsvjwkG"
+    },
+    {
+      "id": 2,
+      "name": "Emma Beaton",
+      "phone": "456-789-0123",
+      "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFOCjG2AKhp86msX3n9RiJHLFvfsecC_2jwh4c2fwaubsvjwkG"
+    },
+    {
+      "id": 3,
+      "name": "Dani Adkins",
+      "phone": "789-012-3456",
+      "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFOCjG2AKhp86msX3n9RiJHLFvfsecC_2jwh4c2fwaubsvjwkG"
+    },
+    {
+      "id": 4,
+      "name": "Adam Oswalt",
+      "phone": "012-345-6789",
+      "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFOCjG2AKhp86msX3n9RiJHLFvfsecC_2jwh4c2fwaubsvjwkG"
+    },
+    {
+      "id": 5,
+      "name": "Fletcher Bangs",
+      "phone": "345-678-9012",
+      "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFOCjG2AKhp86msX3n9RiJHLFvfsecC_2jwh4c2fwaubsvjwkG"
+    },
+    {
+      "id": 6,
+      "name": "Angela Lee",
+      "phone": "678-901-2345",
+      "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFOCjG2AKhp86msX3n9RiJHLFvfsecC_2jwh4c2fwaubsvjwkG"
+    }
+  ]
+}

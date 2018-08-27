@@ -1,22 +1,22 @@
 import React, { Component } from 'react'
-import "./employees.css"
+import './animals.css';
 
 
-export default class EmployeeList  extends Component {
-    render() {
+export default class AnimalsList  extends Component {
+    render(props) {
         return (
-            <div className="employees">
-                <h3>Our Employees</h3>
+            <div className="animals">
+                <h3>Our Animals</h3>
                 <div className="cardDeck"> 
                 {
-                    this.props.employees.map(employee =>
-                        <div key={employee.id} className="card">
+                    this.props.animals.map(animal =>
+                        <div key={animal.id} className="card">
                             <div className="card-body">
                                 <h5 className="card-title">
-                                    <img alt={employee.name} src={employee.pic} />
-                                    {employee.name}
+                                    <img alt={animal.name} src={animal.pic} className={animal.type} />
+                                    {animal.name}
                                     <a href="#"
-                                        onClick={() => this.props.deleteEmployee(employee.id)}
+                                        onClick={() => this.props.deleteAnimal(animal.id)}
                                         className="card-link">Delete</a>
                                 </h5>
                             </div>
