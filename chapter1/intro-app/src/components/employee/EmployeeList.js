@@ -15,9 +15,7 @@ export default class EmployeeList  extends Component {
                                 <h5 className="card-title">
                                     <img alt={employee.name} src={employee.pic} />
                                     {employee.name}
-                                    <a href="#"
-                                        onClick={() => this.props.deleteEmployee(employee.id)}
-                                        className="card-link">Delete</a>
+                                    <button onClick={() => this.props.delete("employees", employee.id)} className="card-link">Delete</button>
                                 </h5>
                             </div>
                         </div>

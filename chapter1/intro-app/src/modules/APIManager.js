@@ -1,5 +1,3 @@
-import React, { Component } from 'react';
-
 const remoteURL = "http://localhost:8088"
 
 export default Object.create(null, {
@@ -10,20 +8,19 @@ export default Object.create(null, {
     },
     getAll: {
         value: function (resources) {
+            // console.log(`${remoteURL}/${resources}`)
             return fetch(`${remoteURL}/${resources}`).then(e => e.json())
         }
     },
     delete: {
         value: function (resources, id) {
-            fetch(`${remoteURL}/${resources}/${id}`, {
+            return fetch(`${remoteURL}/${resources}/${id}`, {
                 method: "DELETE"
             })
             .then(e => e.json())
             .then(() => fetch(`${remoteURL}/${resources}`))
             .then(e => e.json())
-            .then(resources => this.setState({
-                resources: resources
-            }))
+            
         }
     }
 })

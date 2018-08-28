@@ -15,9 +15,7 @@ export default class OwnerList  extends Component {
                                     <img alt={owner.name} src={owner.pic} />
                                     <p>{owner.name}</p>
                                     <p>{owner.phone}</p>
-                                    <a href="#"
-                                        onClick={() => this.props.deleteOwner(owner.id)}
-                                        className="card-link">Delete</a>
+                                    <button onClick={() => this.props.delete(owner.id)} className="card-link">Delete</button>
                                 </h5>
                             </div>
                         </div>

@@ -6,7 +6,7 @@ export default class LocationList  extends Component {
     render(props) {
         return (
             <div className="locations">
-                <h3>Our locations</h3>
+                <h3>Our Locations</h3>
                 <div className="cardDeck"> 
                 {
                     this.props.locations.map(location =>
@@ -16,9 +16,7 @@ export default class LocationList  extends Component {
                                     <img alt={location.name} src={location.pic} />
                                     {location.name}<br></br>
                                     {location.address}<br></br>
-                                    <a href="#"
-                                        onClick={() => this.props.deleteLocation(location.id)}
-                                        className="card-link">Delete</a>
+                                    <button onClick={() => this.props.delete(location.id)} className="card-link">Delete</button>
                                 </h5>
                             </div>
                         </div>
