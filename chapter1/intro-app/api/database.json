@@ -111,14 +111,11 @@
       "id": 2
     },
     {
-      "name": "Rover",
-      "type": "dog",
-      "breed": "derp",
-      "pic": "https://yt3.ggpht.com/-cLeLcvxAPqg/AAAAAAAAAAI/AAAAAAAAAAA/13tCT9otrkE/s100-mo-c-c0xffffffff-rj-k-no/photo.jpg",
-      "notes": "Doesn't know how to bark",
-      "employeeId": 2,
-      "ownerId": 3,
-      "id": 3
+      "id": 3,
+      "name": "try",
+      "type": "sdasd",
+      "breed": "asdasdlkj",
+      "notes": "asdlkasdjkl"
     },
     {
       "name": "Boris",
@@ -159,6 +156,12 @@
       "employeeId": 2,
       "ownerId": 6,
       "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
     }
   ],
   "owners": [

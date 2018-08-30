@@ -35,4 +35,19 @@ export default Object.create(null, {
             .then(() => this.getAll(resources))
         }
     },
+    update: {
+        value: function (resources, updateItem, id) {
+            console.log("resources", resources)
+            console.log("updateItem", updateItem)
+            console.log("id", id)
+            return fetch(`${remoteURL}/${resources}/${id}`, {
+              method: "PATCH",
+              headers: {
+                 "Content-Type": "application/json"
+              },
+              body: JSON.stringify(updateItem)
+           }).then(e => e.json())
+           .then(() => this.getAll(resources))
+        }
+     }
 })

@@ -62,12 +62,17 @@ class ApplicationViews extends Component {
     add = (resources, newItem) => APIManager.post(resources, newItem).then(data => {
         this.setState({[resources]: data})
     })
+
+    edit = (resources, updateItem, id) => APIManager.update(resources, updateItem, id).then(data => {
+        this.setState({[resources]: data})
+    })
     
 
     render() {
         // console.log("render!")
         return (
             <React.Fragment>
+
 
                 <Route path="/login" component={Login} />
 
@@ -95,7 +100,7 @@ class ApplicationViews extends Component {
                     }
                 }} />
                 <Route exact path="/animals/:animalID(\d+)" render={(props) => {
-                    return <AnimalDetail {...props} delete={this.delete} animals={this.state.animals} />
+                    return <AnimalDetail {...props} delete={this.delete} edit={this.edit} animals={this.state.animals} />
                 }} />
                 <Route exact path="/animals/new" render={(props) => {
                     return <AnimalForm {...props} add={this.add} employees={this.state.employees} />
