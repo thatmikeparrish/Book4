@@ -3,27 +3,58 @@
     {
       "id": 1,
       "name": "Jessica Younker",
-      "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuVHI1Nn5hlTQMQdVwCo8noneTR7sX10qHZY__s4Mr7VIoxTA5Gg"
+      "phoneNumber": "123-456-7890",
+      "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuVHI1Nn5hlTQMQdVwCo8noneTR7sX10qHZY__s4Mr7VIoxTA5Gg",
+      "notes": "Really likes bears",
+      "locationId": 3
     },
     {
       "id": 2,
       "name": "Jordan Nelson",
-      "pic": "https://i2.wp.com/www.usmagazine.com/wp-content/uploads/aaron-carter-mugshot-habersham-county-sheriff-office-59750946-b954-4f36-8a76-26ead6e6f7cf.jpg?crop=129px%2C0px%2C749px%2C749px&resize=100%2C100&ssl=1"
+      "phoneNumber": "456-789-0123",
+      "pic": "https://i2.wp.com/www.usmagazine.com/wp-content/uploads/aaron-carter-mugshot-habersham-county-sheriff-office-59750946-b954-4f36-8a76-26ead6e6f7cf.jpg?crop=129px%2C0px%2C749px%2C749px&resize=100%2C100&ssl=1",
+      "notes": "Great at customer service",
+      "locationId": 2
     },
     {
       "id": 3,
       "name": "Zoe LeBlanc",
-      "pic": "http://www.feelnumb.com/wp-content/uploads/2011/03/Darcy-Wretzky-Arrest-Mugshot-Drugs-Smashing-Pumpkins-Bass-100x100.jpg"
+      "phoneNumber": "789-012-3456",
+      "pic": "http://www.feelnumb.com/wp-content/uploads/2011/03/Darcy-Wretzky-Arrest-Mugshot-Drugs-Smashing-Pumpkins-Bass-100x100.jpg",
+      "notes": "Sister 1",
+      "locationId": 1
     },
     {
       "id": 4,
-      "name": "Zoe LeBlanc",
-      "pic": "http://www.feelnumb.com/wp-content/uploads/2011/03/Darcy-Wretzky-Arrest-Mugshot-Drugs-Smashing-Pumpkins-Bass-100x100.jpg"
+      "name": "Ally LeBlanc",
+      "phoneNumber": "012-345-6789",
+      "pic": "http://www.feelnumb.com/wp-content/uploads/2011/03/Darcy-Wretzky-Arrest-Mugshot-Drugs-Smashing-Pumpkins-Bass-100x100.jpg",
+      "notes": "Sister 2",
+      "locationId": 4
     },
     {
       "id": 5,
-      "name": "Zoe LeBlanc",
-      "pic": "http://www.feelnumb.com/wp-content/uploads/2011/03/Darcy-Wretzky-Arrest-Mugshot-Drugs-Smashing-Pumpkins-Bass-100x100.jpg"
+      "name": "Becky LeBlanc",
+      "phoneNumber": "345-678-9012",
+      "pic": "http://www.feelnumb.com/wp-content/uploads/2011/03/Darcy-Wretzky-Arrest-Mugshot-Drugs-Smashing-Pumpkins-Bass-100x100.jpg",
+      "notes": "Sister 3",
+      "locationId": 1
+    },
+    {
+      "name": "Kayla Carter",
+      "phoneNumber": " 6156491437",
+      "pic": "a",
+      "notes": "asd",
+      "locationId": 5,
+      "id": 6
+    },
+    {
+      "name": "Mike Parrish",
+      "phoneNumber": "wdad",
+      "pic": "awdawd",
+      "notes": "awdaw",
+      "locationId": 2,
+      "id": 7
     }
   ],
   "locations": [
@@ -50,76 +81,128 @@
       "name": "Nashville West",
       "address": "503 Circle Way",
       "pic": "https://www.gsa.gov/cdnstatic/ephox_images/Whitehouse_2588321707785308479_1452606658959.jpg"
+    },
+    {
+      "name": "Nashville Center",
+      "address": "middle o town",
+      "pic": "awd",
+      "id": 5
     }
   ],
   "animals": [
     {
-      "id": 1,
       "name": "Fishy",
-      "type": "goldfish",
-      "pic": "https://yt3.ggpht.com/-4wzavTwWDSc/AAAAAAAAAAI/AAAAAAAAAAA/pKJTTjj4z2Q/s100-mo-c-c0xffffffff-rj-k-no/photo.jpg"
+      "type": "fish",
+      "breed": "goldfish",
+      "pic": "https://yt3.ggpht.com/-4wzavTwWDSc/AAAAAAAAAAI/AAAAAAAAAAA/pKJTTjj4z2Q/s100-mo-c-c0xffffffff-rj-k-no/photo.jpg",
+      "notes": "This is a goofy fish",
+      "employeeId": 1,
+      "ownerId": 2,
+      "id": 1
     },
     {
-      "id": 3,
       "name": "Polly",
-      "type": "parrot",
-      "pic": "https://yt3.ggpht.com/-MlvUtnX9SYE/AAAAAAAAAAI/AAAAAAAAAAA/ChmmVYvPV1w/s100-mo-c-c0xffffffff-rj-k-no/photo.jpg"
+      "type": "bird",
+      "breed": "parrot",
+      "pic": "https://yt3.ggpht.com/-MlvUtnX9SYE/AAAAAAAAAAI/AAAAAAAAAAA/ChmmVYvPV1w/s100-mo-c-c0xffffffff-rj-k-no/photo.jpg",
+      "notes": "It talks way to much",
+      "employeeId": 3,
+      "ownerId": 1,
+      "id": 2
     },
     {
-      "id": 4,
       "name": "Rover",
       "type": "dog",
-      "pic": "https://yt3.ggpht.com/-cLeLcvxAPqg/AAAAAAAAAAI/AAAAAAAAAAA/13tCT9otrkE/s100-mo-c-c0xffffffff-rj-k-no/photo.jpg"
+      "breed": "derp",
+      "pic": "https://yt3.ggpht.com/-cLeLcvxAPqg/AAAAAAAAAAI/AAAAAAAAAAA/13tCT9otrkE/s100-mo-c-c0xffffffff-rj-k-no/photo.jpg",
+      "notes": "Doesn't know how to bark",
+      "employeeId": 2,
+      "ownerId": 3,
+      "id": 3
     },
     {
-      "id": 5,
       "name": "Boris",
       "type": "cat",
-      "pic": "https://hips.hearstapps.com/cos.h-cdn.co/assets/15/23/980x980/square-1433350780-cat.jpg?resize=100:*"
+      "breed": "crazy",
+      "pic": "https://hips.hearstapps.com/cos.h-cdn.co/assets/15/23/980x980/square-1433350780-cat.jpg?resize=100:*",
+      "notes": "Shady AF",
+      "employeeId": 4,
+      "ownerId": 6,
+      "id": 4
     },
     {
-      "id": 6,
       "name": "Snappy",
       "type": "gator",
-      "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFOCjG2AKhp86msX3n9RiJHLFvfsecC_2jwh4c2fwaubsvjwkG"
+      "breed": "football gator",
+      "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFOCjG2AKhp86msX3n9RiJHLFvfsecC_2jwh4c2fwaubsvjwkG",
+      "notes": "Kinda snippy",
+      "employeeId": 5,
+      "ownerId": 4,
+      "id": 5
+    },
+    {
+      "name": "Borky",
+      "type": "Dog",
+      "breed": "Lab",
+      "pic": "https://yt3.ggpht.com/-cLeLcvxAPqg/AAAAAAAAAAI/AAAAAAAAAAA/13tCT9otrkE/s100-mo-c-c0xffffffff-rj-k-no/photo.jpg",
+      "notes": "This dog is querky",
+      "employeeId": 4,
+      "ownerId": 5,
+      "id": 6
+    },
+    {
+      "name": "Freckles",
+      "type": "Dog",
+      "breed": "Dalmation",
+      "pic": "",
+      "notes": "First Pup!",
+      "employeeId": 2,
+      "ownerId": 6,
+      "id": 7
     }
   ],
   "owners": [
     {
       "id": 1,
       "name": "Ryan Tanay",
-      "phone": "123-456-7890",
-      "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFOCjG2AKhp86msX3n9RiJHLFvfsecC_2jwh4c2fwaubsvjwkG"
+      "phoneNumber": "123-456-7890",
+      "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFOCjG2AKhp86msX3n9RiJHLFvfsecC_2jwh4c2fwaubsvjwkG",
+      "notes": "Ryan likes blue"
     },
     {
       "id": 2,
       "name": "Emma Beaton",
-      "phone": "456-789-0123",
-      "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFOCjG2AKhp86msX3n9RiJHLFvfsecC_2jwh4c2fwaubsvjwkG"
+      "phoneNumber": "456-789-0123",
+      "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFOCjG2AKhp86msX3n9RiJHLFvfsecC_2jwh4c2fwaubsvjwkG",
+      "notes": "Emma likes red"
     },
     {
       "id": 3,
       "name": "Dani Adkins",
-      "phone": "789-012-3456",
-      "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFOCjG2AKhp86msX3n9RiJHLFvfsecC_2jwh4c2fwaubsvjwkG"
+      "phoneNumber": "789-012-3456",
+      "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFOCjG2AKhp86msX3n9RiJHLFvfsecC_2jwh4c2fwaubsvjwkG",
+      "notes": "Dani likes orange"
     },
     {
       "id": 4,
       "name": "Adam Oswalt",
-      "phone": "012-345-6789",
-      "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFOCjG2AKhp86msX3n9RiJHLFvfsecC_2jwh4c2fwaubsvjwkG"
+      "phoneNumber": "012-345-6789",
+      "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFOCjG2AKhp86msX3n9RiJHLFvfsecC_2jwh4c2fwaubsvjwkG",
+      "notes": "Adam likes black"
     },
     {
       "id": 5,
       "name": "Fletcher Bangs",
-      "phone": "345-678-9012",
-      "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFOCjG2AKhp86msX3n9RiJHLFvfsecC_2jwh4c2fwaubsvjwkG"
+      "phoneNumber": "345-678-9012",
+      "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFOCjG2AKhp86msX3n9RiJHLFvfsecC_2jwh4c2fwaubsvjwkG",
+      "notes": "Fletcher likes green"
     },
     {
-      "id": 6,
-      "name": "Angela Lee",
-      "phone": "678-901-2345",
-      "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFOCjG2AKhp86msX3n9RiJHLFvfsecC_2jwh4c2fwaubsvjwkG"
+      "name": "Mike",
+      "phoneNumber": "7886484",
+      "pic": "asd",
+      "notes": "heyo",
+      "id": 6
     }
   ]
 }

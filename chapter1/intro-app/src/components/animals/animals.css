@@ -1,5 +1,10 @@
 .animals {
     background-image: url("https://www.textures.com/system/gallery/photos/Paper/Crumpled/38226/PaperCrumpled0004_1_350.jpg");
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.title {
+    padding: 0 2rem 2rem 2rem;
 }
 
 .cardDeck {
@@ -24,4 +29,25 @@
 .card-link {
     margin: 12px 0 0 0;
     font-size: 0.7em;
+}
+
+.details {
+    color: crimson;
+}
+
+.animalButton {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0 10px 0;
+}
+
+.formArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.form-group {
+    width: 15rem;
 }

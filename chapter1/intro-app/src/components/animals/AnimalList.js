@@ -1,26 +1,25 @@
 import React, { Component } from 'react'
+// import { Link } from "react-router-dom"
+import AnimalCard from './AnimalCard'
 import './animals.css';
 
 
-export default class AnimalsList  extends Component {
-    render(props) {
+export default class AnimalsList extends Component {
+
+    render() {
+
         return (
             <div className="animals">
-                <h3>Our Animals</h3>
-                <div className="cardDeck"> 
-                {
-                    this.props.animals.map(animal =>
-                        <div key={animal.id} className="card">
-                            <div className="card-body">
-                                <h5 className="card-title">
-                                    <img alt={animal.name} src={animal.pic} className={animal.type} />
-                                    {animal.name}
-                                    <button onClick={() => this.props.delete(animal.id)} className="card-link">Delete</button>
-                                </h5>
-                            </div>
-                        </div>
-                    )
-                }
+                <h1 className="title">Our Animals</h1>
+                <div className="animalButton">
+                    <button type="button" className="btn btn-success" onClick={() => { this.props.history.push("/animals/new") }}>New Animal</button>
+                </div>
+                <div className="cardDeck">
+                    {
+                        this.props.animals.map(animal =>
+                            <AnimalCard key={animal.id} animal={animal} {...this.props} />
+                        )
+                    }
                 </div>
             </div>
         );

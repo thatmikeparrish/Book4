@@ -22,5 +22,17 @@ export default Object.create(null, {
             .then(e => e.json())
             
         }
-    }
+    },
+    post: {
+        value: function (resources, newItem) {
+            return fetch(`${remoteURL}/${resources}`, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(newItem)
+            }).then(e => e.json())
+            .then(() => this.getAll(resources))
+        }
+    },
 })

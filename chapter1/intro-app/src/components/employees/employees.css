@@ -1,4 +1,4 @@
-.locations {
+.employees {
     background-image: url("https://www.textures.com/system/gallery/photos/Paper/Crumpled/38226/PaperCrumpled0004_1_350.jpg");
     padding: 2rem 2rem 2rem 2rem;
 }
@@ -7,7 +7,7 @@
     width: 50rem;
 }
 
-.locationCardDeck {
+.employeeCardDeck {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -22,8 +22,8 @@
 }
 
 .card {
-    width: 12rem;
-    
+    width: 10rem;
+    margin: 1rem 1rem 1rem 1rem;
 }
 
 .card-title {
@@ -46,7 +46,7 @@
     padding: 0 2rem 2rem 2rem;
 }
 
-.locationButton {
+.employeeButton {
     display: flex;
     justify-content: space-evenly;
     margin: 0 0 10px 0;

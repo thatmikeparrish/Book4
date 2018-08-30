@@ -1,47 +1,26 @@
-.owners {
+.login {
     background-image: url("https://www.textures.com/system/gallery/photos/Paper/Crumpled/38226/PaperCrumpled0004_1_350.jpg");
     padding: 2rem 2rem 2rem 2rem;
-}
-
-.cardDeck {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.card {
-    width: 12rem;
-    
-}
-
-.card-title {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-}
-
-.card-link {
-    margin: 12px 0 0 0;
-    font-size: 0.7em;
 }
 
 .title {
     padding: 0 2rem 2rem 2rem;
 }
 
-.ownerButton {
+.loginButton {
     display: flex;
     justify-content: space-evenly;
-    margin: 0 0 10px 0;
+
 }
 
 .formArea {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+}
+
+.loginForm {
+   width: 20rem; 
 }
 
 .form-group {
